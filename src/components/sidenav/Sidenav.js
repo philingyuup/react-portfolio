@@ -6,9 +6,9 @@ import './SideNav.scss'
 const SideNav = () => {
 
   return (
-    <nav id='sidenav'>
+    <aside id='sidenav'>
 
-    </nav>
+    </aside>
   )
 }
 

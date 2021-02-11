@@ -7,10 +7,9 @@ const Header = () => {
 
   return (
     <header id='header'>
-      <a> Philip </a>
-      <div >
-        
-      </div>
+      <a href='/' alt='link to home'>
+        <h1> PHILIP YU </h1>
+      </a>
     </header>
   )
 }
