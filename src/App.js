@@ -1,9 +1,14 @@
 import React from 'react'
+
 import './App.scss';
+
 import GradientButton from './components/util/GradientButton'
 import GradientLink from './components/util/GradientLink'
 import Header from './components/header/Header'
+import SideNav from './components/sidenav/SideNav'
+
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 
 const App = () => {
 
@@ -12,11 +17,8 @@ const App = () => {
     <Router>
       <div id='App' >
         <Header />
-          <GradientButton > Hello </GradientButton>
+        <SideNav />
 
-          <GradientLink >
-            Hello
-          </GradientLink>
         <Switch>
 
         </Switch>
