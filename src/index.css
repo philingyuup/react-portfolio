@@ -1,3 +1,9 @@
+:root {
+  --background-color: #faf8f2;
+  --gradient-from: #3494e6;
+  --gradient-to: #ec6ead;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#app {
+  height: auto;
+  width: 100vw;
 }

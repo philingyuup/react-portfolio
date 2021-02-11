@@ -1,0 +1,59 @@
+.gradient-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // box-sizing: border-box;
+  border-radius: 9999px;
+  background: black;
+  box-shadow: 0 0 2px rgb(175, 173, 173);
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: 1;
+    background: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+    border-radius: inherit;
+    transition: width .2s ease-in-out;
+  }
+
+  button {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    border-radius: inherit;
+    background-color: var(--background-color);
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    padding: 0;
+  }
+
+  span {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &:hover {
+      &:after {
+        width: 100%;
+      }
+
+      button {
+        cursor: pointer;
+        color: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+      }
+
+      span {
+        background: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+        background-clip: text;
+      }
+  }
+}
