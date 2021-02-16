@@ -1,5 +1,7 @@
 :root {
   --background-color: #faf8f2;
+  --secondary-background-color: #f3f1ea;
+  --font-color: black;
   --gradient-from: #3494e6;
   --gradient-to: #ec6ead;
 }

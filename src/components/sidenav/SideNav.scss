@@ -2,5 +2,25 @@
   grid-area: sidenav;
   height: 100%;
   width: 100%;
-  border: 1px green solid;
+  display: grid;
+  justify-items: center;
+  padding-inline: 1rem;
+  padding-top: 8rem;
+  background-color: var(--secondary-background-color);
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 5rem;
+  }
+
+  .bottom-contact {
+    display: grid;
+    place-items: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
+

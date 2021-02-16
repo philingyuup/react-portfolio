@@ -15,7 +15,8 @@ const GradientButton = forwardRef((props, ref) => {
     className = '',
     style = {},
     height = '3rem',
-    width = 'auto'
+    width = 'auto',
+    fontSize = '1rem'
   } = props
 
   const containerStyle = {
@@ -33,7 +34,7 @@ const GradientButton = forwardRef((props, ref) => {
         }}
         ref={ref}
       >
-        <span>{children}</span>
+        <span style={{fontSize: `${fontSize}`}}>{children}</span>
       </button>
     </div>
   )

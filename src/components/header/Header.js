@@ -1,4 +1,5 @@
 import React from 'react'
+import GradientLink from '../util/GradientLink'
 import './Header.scss'
 
 const Header = () => {
