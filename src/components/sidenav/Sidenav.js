@@ -8,13 +8,8 @@ import './SideNav.scss'
 const SideNav = () => {
 
   return (
-    <div id='sidenav'>
+    <nav id='sidenav'>
       <ul>
-        <li>
-          <GradientLink>
-            HOME
-          </GradientLink>
-        </li>
         <li>
           <GradientLink>
             ABOUT
@@ -27,16 +22,16 @@ const SideNav = () => {
         </li>
         <li>
           <GradientLink>
-            SKILLS
+            STACK
+          </GradientLink>
+        </li>
+        <li>
+          <GradientLink>
+            CONTACT
           </GradientLink>
         </li>
       </ul>
-      <div className='bottom-contact'>
-        <GradientButton style={{fontSize: '1rem'}} width='100%'>  
-          CONTACT
-        </GradientButton>
-      </div>
-    </div>
+    </nav>
   )
 }
 

@@ -18,13 +18,13 @@
       right: 0;
       height: 3px;
       width: 0;
-      background: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+      background: linear-gradient(145deg, var(--primary), var(--secondary));
       transition: width .2s ease-in-out;
   }
 
   &:hover {
     cursor: pointer;
-    background: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+    background: linear-gradient(145deg, var(--primary), var(--secondary));
     background-clip: text;
 
     &::after {

@@ -10,16 +10,16 @@ body > * {
   background: var(--background-color);
   display: grid;
   grid-template-columns: 1fr repeat(4, 2fr);
-  grid-template-rows: repeat(8, 2fr);
+  grid-template-rows: 1fr repeat(7, 2fr);
   grid-template-areas: 
-    "header main main main main"
-    "sidenav main main main main"
-    "sidenav main main main main"
-    "sidenav main main main main"
-    "sidenav main main main main"
-    "sidenav main main main main"
-    "sidenav main main main main"
-    "sidenav main main main main";
+    "header header sidenav sidenav sidenav"
+    "main main main main main"
+    "main main main main main"
+    "main main main main main"
+    "main main main main main"
+    "main main main main main"
+    "main main main main main"
+    "main main main main main";
   
 }
 

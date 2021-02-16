@@ -15,7 +15,7 @@
     bottom: 0;
     width: 0%;
     z-index: 1;
-    background: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+    background: linear-gradient(145deg, var(--primary), var(--secondary));
     border-radius: inherit;
     transition: width .2s ease-in-out;
   }
@@ -52,11 +52,11 @@
 
       button {
         cursor: pointer;
-        color: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+        color: linear-gradient(145deg, var(--primary), var(--secondary));
       }
 
       span {
-        background: linear-gradient(145deg, var(--gradient-from), var(--gradient-to));
+        background: linear-gradient(145deg, var(--primary), var(--secondary));
         background-clip: text;
       }
   }

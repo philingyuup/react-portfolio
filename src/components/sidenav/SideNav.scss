@@ -2,17 +2,24 @@
   grid-area: sidenav;
   height: 100%;
   width: 100%;
-  display: grid;
-  justify-items: center;
-  padding-inline: 1rem;
-  padding-top: 8rem;
+  display: flex;
+  justify-content: end;
+  padding-inline: 2rem;
   background-color: var(--secondary-background-color);
 
   ul {
     margin: 0;
     padding: 0;
+    width: 100%;
     list-style-type: none;
     line-height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    li {
+      margin-right: 2rem;
+    }
   }
 
   .bottom-contact {
