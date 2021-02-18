@@ -2,15 +2,16 @@ import React from 'react'
 import GradientLink from '../util/GradientLink'
 import './Header.scss'
 
-const Header = () => {
+const Header = ({ children }) => {
 
 
 
   return (
     <header id='header'>
-      <a href='/' alt='link to home'>
-        <h1> PHILIP YU </h1>
-      </a>
+      <GradientLink href='/' alt='link to home' noUnderline='true' className='link'>
+        PHILIP YU
+      </GradientLink>
+      { children }
     </header>
   )
 }

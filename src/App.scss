@@ -5,21 +5,21 @@ body > * {
 }
 
 #App {
-  height: 100vh;
+  height: 300rem;
   width: 100vw;
   background: var(--background-color);
-  display: grid;
-  grid-template-columns: 1fr repeat(4, 2fr);
-  grid-template-rows: 1fr repeat(7, 2fr);
-  grid-template-areas: 
-    "header header sidenav sidenav sidenav"
-    "main main main main main"
-    "main main main main main"
-    "main main main main main"
-    "main main main main main"
-    "main main main main main"
-    "main main main main main"
-    "main main main main main";
+  // display: grid;
+  // grid-template-columns: 1fr repeat(4, 2fr);
+  // grid-template-rows: 1fr repeat(7, 2fr);
+  // grid-template-areas: 
+  //   "main main main main main"
+  //   "main main main main main"
+  //   "main main main main main"
+  //   "main main main main main"
+  //   "main main main main main"
+  //   "main main main main main"
+  //   "main main main main main"
+  //   "main main main main main";
   
 }
 

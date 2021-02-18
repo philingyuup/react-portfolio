@@ -1,11 +1,11 @@
 #sidenav {
-  grid-area: sidenav;
+  // grid-area: sidenav;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: end;
   padding-inline: 2rem;
-  background-color: var(--secondary-background-color);
+  background-color: transparent;
 
   ul {
     margin: 0;

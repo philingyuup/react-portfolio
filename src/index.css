@@ -4,6 +4,7 @@
   --font-color: black;
   --primary: #3494e6;
   --secondary: #ec6ead;
+  --muted: rgb(224, 224, 224);
 }
 
 body {

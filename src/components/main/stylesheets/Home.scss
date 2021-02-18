@@ -1,0 +1,45 @@
+#home-container {
+  position: relative;
+  border: 1px red solid;
+  height: 100%;
+  width: 100%;
+  margin-top: 8rem;    
+  padding-inline: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+  p {
+    font-size: 5rem;
+
+
+    color: white;
+    text-shadow: 0 0 2px black;
+    border: 1px red solid;
+  }
+
+  div {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 5rem;
+    text-align: center;
+
+    button {
+      border-radius: 9999px;
+      font-size: 2rem;
+      background: white;
+      border: 2px white solid;
+      height: 100%;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    span {
+      color: white;
+    }
+  }
+}

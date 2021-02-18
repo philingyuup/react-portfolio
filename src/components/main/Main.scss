@@ -1,19 +1,16 @@
 #main {
   grid-area: main;
   position: relative;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: transparent;
 
-  svg {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  // svg {
+  //   position: relative;
 
-    path {
-      transform: scale(2, 3);
-    }
-  }
+  //   path {
+  //   }
+  // }
 
   #clip {
     position: absolute;
@@ -24,20 +21,15 @@
     bottom: 0;
     opacity: 1;
     background: linear-gradient(145deg, var(--primary), var(--secondary));
-    clip-path: url(#clip-path);
-    -webkit-clip-path: url(#clip-path);
+    clip-path: url(#clip-shape);
+    -webkit-clip-path: url(#clip-shape);
   }
 }
 
 #content {
   background: transparent;
-  position: absolute;
+  position: relative;
   z-index: 2;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-block: 1rem;
-  padding-inline: 2rem;
-  // border: 5px red solid;
+  height: auto;
+  width: 100%;
 }

@@ -31,4 +31,48 @@
       width: 100%;
     }
   }
+
+  &.underline::after {
+    all: initial;
+  }
+}
+
+//primary color
+.gradient-link.primary-color {
+  
+  &:after {
+    background: var(--primary);
+  }
+
+  &:hover {
+      background: var(--primary);
+      background-clip: text;
+    }
+}
+
+//secondary color
+.gradient-link.secondary-color {
+  &:after {
+    background: var(--secondary);
+  }
+
+  &:hover {
+      background: var(--secondary);
+      background-clip: text;
+    }
+}
+
+//muted color
+.gradient-link.muted-color {
+  background: white;
+  background-clip: text;
+
+  &:after {
+    background: var(--muted);
+  }
+
+  &:hover {
+      background: var(--muted);
+      background-clip: text;
+    }
 }
